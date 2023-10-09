@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "torchgfn-tutorial"
+packages = [{include = "gfntutorial", from = "src"}]
+version = "0.1"
+description = "GFlowNet Tutorial"
+authors = ["Joseph Viviano <joseph@viviano.ca>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+numpy = ">=1.21.2"
+pytest = "*"
+python = "^3.10"
+scikit-learn = "*"
+scipy = "*"
+torch = ">=1.9.0"
+torchtyping = ">=0.1.4"
+torchgfn = ">=1.1"
+seaborn = "*"
+pandas = "*"
+jupyter = "*"
+ipython = "*"
+
+[project.urls]
+"Homepage" = "https://gfn.readthedocs.io/en/latest/"
+"Bug Tracker" = "https://github.com/saleml/gfn/issues"
+
+[tool.poetry.scripts]
+gfntutorial = "gfntutorial.main:main"
