@@ -12,4 +12,23 @@ Then we may have other demos to illustrate some of the more advanced losses, suc
 
 Then I would have a demo for GFN-EM and another for EB-GFN, along with optimization tricks that have turned out useful for them.
 
+---
+
+I like the idea of presenting TB before DB as the latter also involves the flow function!
+
+I think the following structure may have the potential to enhance readers' understanding of GFNs by incorporating empirical success alongside mathematical concepts.
+
+- Introduction:
+Starting from introducing GFN and amortized marginalization, the basic notions, the 3 basic flow consistency constraints at different levels (FM, TB, DB), and corresponding implementation considerations (e.g., larger lr for learning Z)
+
+- Advancements:
+After we have covered the basics, we can introduce more advanced design aspects, e.g., long-horizon planning, sparser rewards, and other relevant considerations. I think we can also talk about the extensions of the formulations to continuous and stochastic cases here.
+
+- Connection to variational methods and RL:
+After we have introduced the fundamentals of GFNs, I think it would be beneficial for discussing their relationship with other approaches for readers to better connect them. We can explore its connections to variational methods and RL here.
+
+- Fruitful Applications:
+We can finally discuss fruitful applications that have emerged from GFN research, which will highlight the practical importance and wide-ranging possibilities that GFN offers.
+
+I think it will enable readers to have a better understanding of GFN's power and potential by combining the theoretical concepts, recent empirical successes, implementation and codebases, and its fruitful applications.
 
