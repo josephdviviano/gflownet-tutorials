@@ -25,7 +25,7 @@ scikit-learn = "*"
 scipy = "*"
 torch = ">=1.9.0"
 torchtyping = ">=0.1.4"
-torchgfn = ">=1.1"
+torchgfn = { git = "https://github.com/GFNOrg/torchgfn.git", branch = "easier_environment_definition" }
 seaborn = "*"
 pandas = "*"
 jupyter = "*"
