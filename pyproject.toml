@@ -30,6 +30,7 @@ seaborn = "*"
 pandas = "*"
 jupyter = "*"
 ipython = "*"
+twdm = "*"
 
 [project.urls]
 "Homepage" = "https://gfn.readthedocs.io/en/latest/"
